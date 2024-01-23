@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+    padding: 0% 15%;
+}
+
+/* HEADER */
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+li a {
+    color: #E5E7EB;
+    margin-right: 25px;
+    text-decoration: none;
+}
