@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,17 +8,38 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+.pad {
+    padding: 0% 15%;
+}
+
 .dark-bg {
     background-color: #1F2937;
-    padding: 0% 15%;
+}
+
+.white-ft {
+    color: #fff;
+}
+
+.vertical-mid-mg {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.pd-1 {
+    padding-top: 1%;
+}
+
+.pd-7 {
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 /* HEADER */
 header {
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .logo {
@@ -31,12 +52,185 @@ ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    
-    
+
+}
+
+.middle-margin {
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 li a {
     color: #E5E7EB;
-    margin-right: 25px;
     text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    gap: 50px;
+}
+
+/* .left {
+    flex: 1;
+    /* line-height: 1.5; */
+
+
+/* .right{
+    flex: 2;
+} */
+
+/* .right{
+    margin-left: 30px;
+} */
+
+.right {
+    flex: 2;
+}
+
+.left {
+    flex: 1;
+}
+
+.hero_maintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero_subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 9px 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* INFORMATION */
+.information {
+    background-color: antiquewhite;
+    padding-bottom: 7%;
+}
+
+.information_title {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* .box_sec {
+    display: flex;
+    justify-content: center;
+}
+
+.box_elt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content:center ;
+    align-items: center;
+    gap: 20px;
+}
+
+.box_sub {
+    width: 50%;
+    background-color: tomato;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid #3882F6;
+} */
+
+.box_sec {
+    display: flex;
+    justify-content: center;
+}
+
+.box_elt {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    border: 3px solid #1F2937;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.box_text {
+    width: 50%;
+    text-align: center;
+}
+
+/* QUOTE */
+.quote {
+    background-color: #E5E7EB;
+}
+
+blockquote,
+.quote p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 1%;
+
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* CALL TO ACTION */
+
+.cta_box {
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding: 60px 40px;
+    background-color: #3882F6;
+}
+
+/* .cta_txt {
+    c
+} */
+
+.cta_button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px 0;
 }
